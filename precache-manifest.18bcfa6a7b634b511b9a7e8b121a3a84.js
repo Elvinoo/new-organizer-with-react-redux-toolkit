@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b19a6f1143fd64042b5f",
+    "revision": "f9afea62e3e1ec8ba0ed",
     "url": "/new-organizer-with-react-redux-toolkit/static/css/main.dc187696.chunk.css"
   },
   {
-    "revision": "b19a6f1143fd64042b5f",
-    "url": "/new-organizer-with-react-redux-toolkit/static/js/main.b19a6f11.chunk.js"
+    "revision": "f9afea62e3e1ec8ba0ed",
+    "url": "/new-organizer-with-react-redux-toolkit/static/js/main.f9afea62.chunk.js"
   },
   {
     "revision": "ec5ddaa9f6f0a593122a",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/new-organizer-with-react-redux-toolkit/static/js/runtime~main.c7cb03f0.js"
   },
   {
-    "revision": "7a2d7e14d11bfd94a14b9be6769080af",
+    "revision": "7711ed0ac7e879f24c1edd3f790d55fd",
     "url": "/new-organizer-with-react-redux-toolkit/index.html"
   }
 ];
