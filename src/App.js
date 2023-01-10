@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
 
+import MaingPage from './pages/MainPage/MaingPage';
+import ListPage from './pages/ListPage/ListPage'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import './reset.css';
+import './common.css';
+//import { useSelector } from 'react-redux';
 function App() {
+
+  // const generetadId = useSelector((store) => store.id.id);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<MaingPage />} />
+          <Route path="/list/:id" element={<ListPage />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
