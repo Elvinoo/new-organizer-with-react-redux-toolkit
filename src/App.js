@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Routes>
-          <Route path="/" element={<MaingPage />} />
+          <Route path="*" element={<MaingPage />} />
           <Route path="/list/:id" element={<ListPage />} />
         </Routes>
       </div>
