@@ -25,7 +25,7 @@ export default function ListPage() {
               <li key={item.imdbID}>
                 <a
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   href={linktoIMDB + item.imdbID}
                 >
                   {item.Title}({item.Year})
